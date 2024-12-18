@@ -1,18 +1,19 @@
 {
   "name": "@-amazeelabs/netlify_cdn",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "author": "Amazee Labs <development@amazeelabs.com>",
   "license": "GPL-2.0+",
   "publishConfig": {
     "access": "public",
     "registry": "http://127.0.0.1:4873",
-    "repository": "git@github.com:AmazeeLabs/silverback_cdn.git",
+    "repository": "git@github.com:AmazeeLabs/netlify_cdn.git",
     "branch": "main"
   },
   "devDependencies": {
-    "@amazeelabs/sync-composer-version": "workspace:*"
+    "@amazeelabs/sync-composer-version": "1.1.5"
   },
   "scripts": {
     "version": "sync-composer-version"
-  }
+  },
+  "gitHead": "6c83711750792dd77727e61da3f61995be0cc9f5"
 }
